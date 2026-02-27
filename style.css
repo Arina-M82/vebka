@@ -321,4 +321,105 @@ h1 {
     border-color: #008cff;
     box-shadow: 0 0 20px rgba(0,140,255,0.6);
     transform: translateY(-3px);
+
+}
+/* ========================= */
+/* 📱 АДАПТАЦИЯ ДЛЯ МОБИЛКИ */
+/* ========================= */
+
+@media (max-width: 1024px) {
+
+  /* 404 */
+  h1 {
+    font-size: 60px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  /* HERO */
+  .hero {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  /* MISSION */
+  .mission-wrapper {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .mission-left,
+  .mission-right {
+    width: 100%;
+  }
+
+  .mission-circle {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+  }
+
+  .mission-top {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .mission-top h2 {
+    font-size: 36px;
+  }
+
+  .mission-right p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* TEAM */
+  .team-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .team-card img {
+    height: 220px;
+  }
+
+  /* FINAL */
+  .final-content h2 {
+    font-size: 22px;
+  }
+
+  .final-content h1 {
+    font-size: 32px;
+  }
+
+  .final-btn {
+    padding: 14px 30px;
+    font-size: 16px;
+  }
+}
+
+
+/* 📱 Маленькие телефоны */
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .team-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .mission-circle {
+    width: 220px;
+    height: 220px;
+  }
+
 }
