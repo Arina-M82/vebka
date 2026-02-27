@@ -386,8 +386,8 @@ h1 {
     gap: 30px;
   }
 
-  .team-card img {
-    height: 220px;
+   .team-card img {
+    height: 500px;
   }
 
   /* FINAL */
@@ -423,3 +423,4 @@ h1 {
   }
 
 }
+
