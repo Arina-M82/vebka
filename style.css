@@ -283,7 +283,7 @@ h1 {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(2px);
     z-index: 1;
 }
@@ -321,8 +321,25 @@ h1 {
     border-color: #008cff;
     box-shadow: 0 0 20px rgba(0,140,255,0.6);
     transform: translateY(-3px);
-
 }
+
+/* кнопка */
+.final2-btn {
+    padding: 18px 50px;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* ✨ подсветка при наведении */
+.final2-btn:hover {
+    background: #008cff;
+    border-color: #008cff;
+    box-shadow: 0 0 20px rgba(0,140,255,0.6);
+    transform: translateY(-3px);}
 /* ========================= */
 /* 📱 АДАПТАЦИЯ ДЛЯ МОБИЛКИ */
 /* ========================= */
@@ -386,7 +403,7 @@ h1 {
     gap: 30px;
   }
 
-   .team-card img {
+  .team-card img {
     height: 500px;
   }
 
@@ -400,6 +417,10 @@ h1 {
   }
 
   .final-btn {
+    padding: 14px 30px;
+    font-size: 16px;
+  }
+  .final2-btn {
     padding: 14px 30px;
     font-size: 16px;
   }
@@ -423,4 +444,3 @@ h1 {
   }
 
 }
-
